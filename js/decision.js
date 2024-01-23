@@ -25,7 +25,7 @@ else{
 document .write( ' <h3>Now we have ' + output + '. </ h3> <br>');
 if(hour % 2 == 1)
 {
-	document.write('<h3>this number is odd, so now we\'re gonna multiply it by 2 a number of times equal to the original hour.</h3>');
+	document.write('<h3>This number is odd, so now we\'re gonna multiply it by 2 a number of times equal to the original hour.</h3>');
 	var temp = hour;
 	for(n = 0; n < temp; n++)
 	{
