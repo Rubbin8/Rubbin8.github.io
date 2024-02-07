@@ -3,6 +3,7 @@ var msg = 'hello';
 var hour = today.getHours();
 var output = 0;
 var i = 0;
+
 document .write( ' <h3>the current hour is ' + hour + '</h3> ');
 if(hour < 11)
 {
@@ -38,3 +39,9 @@ else{
 }
 
 document .write( ' <h3>After a series of arbitrary calculations, the hour turned into ' + output + '. This is time travel.</ h3> ');
+
+/*$(':header').addClass('headline');
+$('li:lt(3)').hide().fadeIn(1500);
+$('li').on('click', function() {
+	&(this).remove();
+}*/

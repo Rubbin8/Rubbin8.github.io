@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script>
 $(document).ready(function(){
   $("button").click(function(){
     $("p").hide();
-	$("h1").hide();
-	
   });
 });
 </script>
@@ -37,10 +30,5 @@ the continent, known as the nation of Tonthrop.
 <a href="page1.html">Redbird Gaming Club</a> <br>
 <a href="numbers.html">watch numbers do stuff</a> <br>
 <button>Too many words, get rid of them!</button>
-
-
 </body>
 </html>
-
-
-
